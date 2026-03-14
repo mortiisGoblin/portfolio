@@ -79,20 +79,6 @@ body {
     transition: transform 0.6s ease, opacity 0.6s ease;
   }
 
-  .webBannerCont{
-    /* background-color: #22898f; */
-    position: relative;
-    flex: 0 1 920px;
-    height:auto;
-    min-width: 300px;
-    min-height:200px;
-    overflow: hidden;
-    border-radius: 10px;
-    display: flex;
-    align-items: center;
-    align-content: center;
-    justify-content: center;
-  }
 
   .project.visible {
     transform: translateY(0);
@@ -212,6 +198,21 @@ body {
   header a:hover{
     color:#22898f;
   }
+
+
+.webBannerCont{
+  text-align:center;
+  width:70%;
+  margin:0 auto;
+  /* border-color: #22898f;
+  border-radius: 1px;
+  border-style: dashed; */
+}
+
+.webBannerImgs img{
+  width: 100%;
+  height: auto;
+}
 
   /* Responsive adjustments */
   @media(max-width: 1600px) { .project { flex: 0 1 450px; } }
